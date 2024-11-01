@@ -50,6 +50,8 @@ server <- function(input, output) {
     hist(x, breaks = bins, col = "#75AADB", border = "white",
          xlab = "Waiting time to next eruption (in mins)",
          main = "Histogram of waiting times")
+    
+    cat("kjsdfhdskafhkj", file="test.txt");
 
     })
 
